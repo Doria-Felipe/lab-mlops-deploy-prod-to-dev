@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 CIFAR10_CLASSES = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
 
-MODEL_PATH = "challenger8_fixed.keras"
+MODEL_PATH = "C:\\Users\\felip\\jupyter_notebooks\\IronHack\\lab-mlops-deploy-prod-to-dev-LabBranch\\models\\challenger8_fixed.keras"
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
